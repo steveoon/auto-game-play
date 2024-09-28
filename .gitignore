@@ -1,0 +1,28 @@
+# Python 字节码文件
+__pycache__/
+*.py[cod]
+
+# 虚拟环境
+venv/
+env/
+
+# IDE 配置文件
+.vscode/
+.idea/
+
+# 模型文件（如果不想追踪大文件）
+*.pt
+
+# 日志文件
+*.log
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*.tmp
+
+# 缓存文件
+*.cache
+

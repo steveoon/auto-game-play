@@ -129,4 +129,7 @@ with mss.mss() as sct:
         if cv2.waitKey(delay) & 0xFF == ord("q"):
             break
 
+        print(f"Frame processed in {elapsed_time:.3f} seconds")
+        print(f"Detected {len(instructions)} objects")
+
 cv2.destroyAllWindows()

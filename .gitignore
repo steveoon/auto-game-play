@@ -26,3 +26,10 @@ Thumbs.db
 # 缓存文件
 *.cache
 
+# 截图文件
+screenshots/
+
+# 分组图片
+group_*/
+dataset
+original-label-data
